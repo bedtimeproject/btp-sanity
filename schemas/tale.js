@@ -24,15 +24,23 @@ export default {
     },
     {
       name: "mainImage",
-      title: "Main image",
+      title: "Main Image",
       type: "image",
       options: {
         hotspot: true,
       },
     },
     {
+      name: "alt",
+      type: "string",
+      title: "Main Image Alt",
+      options: {
+        maxLength: 1024,
+      },
+    },
+    {
       name: "publishedAt",
-      title: "Published at",
+      title: "Published At",
       type: "datetime",
     },
     {
