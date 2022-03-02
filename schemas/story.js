@@ -48,6 +48,12 @@ export default {
       title: "Body",
       type: "blockContent",
     },
+    {
+      name: "more",
+      title: 'Add "More Content Coming Soon" Block',
+      type: "boolean",
+      initialValue: false,
+    },
   ],
 
   preview: {
