@@ -8,6 +8,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import blockContent from "./blockContent";
 import story from "./story";
 import tale from "./tale";
+import quip from "./quip";
 import contributor from "./contributor";
 import faq from "./faq";
 import parentInfo from "./parentInfo";
@@ -23,6 +24,7 @@ export default createSchema({
     // in the studio.
     story,
     tale,
+    quip,
     contributor,
     faq,
     parentInfo,
