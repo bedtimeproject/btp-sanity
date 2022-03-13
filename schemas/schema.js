@@ -12,6 +12,7 @@ import quip from "./quip";
 import contributor from "./contributor";
 import faq from "./faq";
 import parentInfo from "./parentInfo";
+import audio from "./audio";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -28,6 +29,7 @@ export default createSchema({
     contributor,
     faq,
     parentInfo,
+    audio,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
